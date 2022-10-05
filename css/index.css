@@ -1,0 +1,31 @@
+/* GLOBAL */
+html, body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* HEADER  */
+.header__top{
+    background-color: #ff4f81;
+    font-size: 14px;
+}
+
+.header__top a{
+    text-decoration: none;
+    color: white;
+}
+
+.header__left a{
+    margin-right: 1.25rem; /* class mr-4 not working */
+}
+
+.header__right a{
+    width: 30px;
+    height: 30px;
+    display: inline-block; /*thẻ inline ko xét được kích thước nên dùng inline-block */
+    background-color: black;
+    border: 1px solid black;
+
+    text-align: center;
+    line-height: 30px; /* mẹo để căn icon theo chiều dọc */ 
+    margin-left: 0.25rem;
+}
