@@ -14,10 +14,6 @@ html, body{
     color: white;
 }
 
-.header__left a{
-    margin-right: 1.25rem; /* class mr-4 not working */
-}
-
 .header__right a{
     width: 30px;
     height: 30px;
