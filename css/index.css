@@ -12,6 +12,7 @@ html, body{
 .header__top a{
     text-decoration: none;
     color: white;
+    transition: all 0.5s;
 }
 
 .header__right a{
@@ -25,3 +26,92 @@ html, body{
     line-height: 30px; /* mẹo để căn icon theo chiều dọc */ 
     margin-left: 0.25rem;
 }
+
+.header__right a:hover{
+    background-color: #ff4f81;
+    border-color: white;
+}
+
+.header__left a:hover{
+    color: black !important; /* đè code bootstrap */
+}
+
+.navInstruction a{
+    color: black;
+}
+
+.navInstruction .navbar-brand p:first-child{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.navInstruction .navbar-brand p:first-child i{
+    transform: skewX(-10deg);
+}
+
+.navInstruction .navbar-brand p:last-child{
+    font-size: 11px;
+    color: #ff4f81;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+/* .navInstruction{
+    width: 75%;     /* kỹ thuật căn giữa nội dung ở giữa cách đều 2 bên
+    margin: auto;   /* có thể dùng class container bên bootstrap
+} */
+
+#navbarInstruction .nav-item{
+    margin: 0 15px;
+}
+
+#navbarInstruction .nav-item::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: #ff4f81;
+    display: block;
+    transition: all 0.5s;
+}
+
+#navbarInstruction .nav-item:hover::after{
+    width: 100%;
+}
+
+
+#navbarInstruction .nav-link{
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: all 0.5s;
+}
+
+#navbarInstruction .nav-item:hover .nav-link{
+    color: #ff4f81;
+}
+
+#navbarInstruction .nav-item.active .nav-link{
+    color: #ff4f81;
+}
+
+#navbarInstruction .nav-item.active::after{
+    width: 100%;
+}
+
+#navbarInstruction .dropdown-menu{
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+#navbarInstruction .dropdown-item{
+    color: white;
+    transition: all .5s;
+}
+
+#navbarInstruction .dropdown-item:focus, #navbarInstruction .dropdown-item:hover{
+    background-color: transparent;
+    color: #ff4f81;
+}
+
+
+
