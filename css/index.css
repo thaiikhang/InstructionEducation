@@ -144,7 +144,7 @@ html, body{
     transition: all 0.5s;
 }
 
-#carouselCyber .carousel-caption button:hover{
+#carouselEducation .carousel-caption button:hover{
     background-color: #ff4f81;
     border-color: #ff4f81;
 }
