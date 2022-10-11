@@ -113,5 +113,41 @@ html, body{
     color: #ff4f81;
 }
 
+/* CAROUSEL  */
+#carouselEducation .carousel-caption{
+    top: 55%;
+    left: 50%;
+
+    transform: translate(-50%,-50%); /* kỹ thuật canh giữa BS chỉ áp dụng khi có position:absolute*/
+}
+
+#carouselEducation .carousel-caption h1{
+    font-size: 52px;
+}
+
+#carouselEducation .carousel-caption p{
+    letter-spacing: 4px;
+    line-height: 1.8rem;
+    width: 70%;
+    margin: 0 auto;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+#carouselEducation .carousel-caption button{
+    padding: 11px 20px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 0;
+    letter-spacing: 2px;
+    font-size: 14px;
+    transition: all 0.5s;
+}
+
+#carouselCyber .carousel-caption button:hover{
+    background-color: #ff4f81;
+    border-color: #ff4f81;
+}
+
 
 
