@@ -182,7 +182,7 @@ html, body{
 }
 
 /* WELCOME  */
-.welcome__content{
+.welcome__content>p{
     width: 70%;
     margin: 0 auto;
 
@@ -194,6 +194,37 @@ html, body{
     line-height: 1.8em; /* đơn vị em đi theo font size gần nhất */
     /* 1em = 15px */
 }
+
+.welcome__item i{
+    font-size: 2rem;
+}
+
+.welcome__item h3{
+    color: #ff4f81;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.welcome__item h4{
+    color: #000;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1rem 0 0.2rem;
+}
+
+.welcome__item p{
+    color: #999;
+    font-size: 15px;
+    line-height: 1.8em;
+    margin: 10px 0 0;
+    letter-spacing: 1px;
+}
+
+.welcome__col{
+    padding: 2em;
+}
+
 
 
 
