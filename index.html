@@ -18,7 +18,11 @@
 
     <!-- FONT AWESOME  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    
+    <!-- OWL CAROUSEL  -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    
     <!-- MAIN CSS  -->
     <link rel="stylesheet" href="./css/index.css">
 </head>
@@ -270,7 +274,78 @@
     </section>
 
     <!-- FEEDBACK  -->
-    <section class="feedback"></section>
+    <section class="feedback section">
+      <div class="heading heading--white">
+        <h2>TESTIMONIALS</h2>
+        <p>when climbing the carrer ladder</p>
+      </div>
+      <div class="container">
+        <div class="feedback__content">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="feedback__top">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur dolorem beatae assumenda maxime nobis perspiciatis.</p>
+              </div>
+              <div class="feedback__bottom">
+                <img src="./img/test1.jpg" alt="">
+                <div class="feedback__name">
+                  <p>Mary Jane</p>
+                  <p>Lorem, ipsum.</p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="feedback__top">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur dolorem beatae assumenda maxime nobis perspiciatis.</p>
+              </div>
+              <div class="feedback__bottom">
+                <img src="./img/test2.jpg" alt="">
+                <div class="feedback__name">
+                  <p>Peter</p>
+                  <p>Lorem, ipsum.</p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="feedback__top">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur dolorem beatae assumenda maxime nobis perspiciatis.</p>
+              </div>
+              <div class="feedback__bottom">
+                <img src="./img/test1.jpg" alt="">
+                <div class="feedback__name">
+                  <p>Mary Jane</p>
+                  <p>Lorem, ipsum.</p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="feedback__top">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur dolorem beatae assumenda maxime nobis perspiciatis.</p>
+              </div>
+              <div class="feedback__bottom">
+                <img src="./img/test3.jpg" alt="">
+                <div class="feedback__name">
+                  <p>Steven</p>
+                  <p>Lorem, ipsum.</p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="feedback__top">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur dolorem beatae assumenda maxime nobis perspiciatis.</p>
+              </div>
+              <div class="feedback__bottom">
+                <img src="./img/test2.jpg" alt="">
+                <div class="feedback__name">
+                  <p>Guptill</p>
+                  <p>Lorem, ipsum.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- NEWS -->
     <section class="news"></section>
@@ -302,7 +377,26 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>
-
+    
+    <!-- OWL JS  -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+      $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:3
+        }
+    }
+    })
+    </script>
 </body>
 
 </html>

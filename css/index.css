@@ -294,5 +294,81 @@ html, body{
     letter-spacing: 0.5px;
 }
 
+/* FEEDBACK  */
+.feedback{
+    background-image: url("../img/banner3.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.feedback__content{
+    box-shadow: 0px 1px 7px #8e8e8e;
+    background-color: rgba(0, 0, 0, 0.47);
+    padding: 1rem;
+}
+
+.feedback__content .item{   
+    color: white;
+    padding: 1rem;
+}
+
+.feedback__top{
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.47);
+    position: relative;
+}
+
+.feedback__top::after{
+    content: '';
+    border-top: 9px solid rgba(0, 0, 0, 0.47);
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;    
+    position: absolute;
+    top: 100%; 
+    left: 32%;
+}
+
+.feedback__content .feedback__bottom img{
+    width: 28%;
+    display: inline-block;
+}
+
+.feedback__bottom{
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto 0;
+    width: 55%;
+}
+
+.feedback__name{
+    margin-left: 5px;
+}
+
+.feedback__name p{
+    margin: 0;
+    color: #ff4f81;
+}
+
+.feedback__name p:first-child{
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.feedback__content .owl-theme .owl-dots .owl-dot span{
+    background-color: #ff4f81;
+    opacity: 0.5;
+}
+
+.feedback__content .owl-theme .owl-dots .owl-dot.active span,.feedback__content .owl-theme .owl-dots .owl-dot:hover span {
+    opacity: 1;
+}
+
+.feedback__content .owl-dots .owl-dot:focus{
+    outline: none;
+}
+
 
 
