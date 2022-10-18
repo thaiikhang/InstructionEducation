@@ -428,6 +428,119 @@ html, body{
     max-width: 600px;
 }
 
+/* FOOTER  */
+footer{
+    background-color: #141415;
+}
+
+.footer__top h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff4f81;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+}   
+
+.footer__top p{
+    font-size: 15px;
+    color: #8b8b96;
+    line-height: 2em;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+}
+
+.footer__link,.footer__contact{
+    margin-bottom: 1rem;
+}
+
+.footer__link i{
+    color: #ff4f81;
+    margin-right: 1rem;
+}
+
+.footer__link a,.footer__contact a{
+    text-decoration: none;
+    color: #8b8b96;
+    font-size: 15px;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    transition: all .5s;
+}
+
+.footer__link a:hover,.footer__contact a:hover{
+    color: white;
+}
+
+.footer__contact i{
+    width: 32px;
+    height: 32px;
+    border: 1px solid #4b4b50;
+    color: white;
+    text-align: center;
+    line-height: 32px;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.footer__form{
+    margin-top: 3rem;
+}
+
+.form-group .labelMail{
+    display: inline-block;
+    padding: 0 12px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff4f81;
+    letter-spacing: 1px;
+}
+
+.form-group .inputMail{
+    width: 45%;
+    display: inline-block;
+    padding: 14px;
+    border: none;
+    border-radius: 0;
+    color: #888;
+    letter-spacing: 1px;
+}
+
+.form-group .submit__button{
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.form-group button{
+    padding: 12px 35px;
+    background-color: #ff4f81;
+    letter-spacing: 1px;
+    border-radius: 0;
+    color: white;
+    outline: none;
+    transition: all .5s;
+}
+
+.form-group .submit__button button:hover{
+    background-color: #ec1955;
+    color: white;
+}
+
+.footer__bottom{
+    color: #0f0f10;
+    text-align: center;
+    padding: 1rem 0;
+    color: white;
+}
+
+.footer__bottom a{
+    text-decoration: none;
+    color: #ff4f81;
+    transition: all .5s;
+}
+
+.footer__bottom a:hover{
+    color: white;
+}
 
 
 
