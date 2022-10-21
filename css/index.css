@@ -149,6 +149,16 @@ html, body{
     color: #ff4f81;
 }
 
+.navInstruction .navbar-toggler{
+    color: #ff4f81;
+    background-color: black;
+    border-radius: 0px;
+}
+
+.navInstruction .navbar-toggler:focus{
+    outline: none;
+}
+
 /* CAROUSEL  */
 #carouselEducation .carousel-caption{
     top: 55%;
@@ -541,6 +551,68 @@ footer{
 .footer__bottom a:hover{
     color: white;
 }
+
+/* -------------------------------  */
+/* RESPONSIVE  */
+/* HEADER  */
+@media screen and (max-width: 991.98px) {
+    .navInstruction .navbar-brand p:first-child{
+        font-size: 3vw;
+        /* 3% so với width của trình duyệt  */
+    }
+
+    .navInstruction .navbar-brand p:last-child{
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (max-width:767.98px) {
+    #navbarInstruction .navbar-nav{
+        background: #eee;
+        text-align: center;
+    }
+
+    #navbarInstruction .dropdown-menu{
+        background-color: #e0e1e2;
+        border-color: #e0e1e2;
+        text-align: center;
+    }
+
+    #navbarInstruction .dropdown-item{
+        color: black;
+    }
+
+
+}
+
+@media screen and (max-width:575.98px) {
+    .header__left a{
+        display: block;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .header__right{
+        width: 32%;
+        text-align: center;
+    }
+
+    .header__right a{
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+    #navbarInstruction .nav-item{
+        margin: 0;
+        padding: 0 2px;
+    }
+    #navbarInstruction .nav-link{
+        font-size: 12px;
+        padding: 5px;
+    }
+}
+
 
 
 
