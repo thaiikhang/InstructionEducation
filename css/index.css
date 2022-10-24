@@ -173,7 +173,7 @@ html, body{
 
 #carouselEducation .carousel-caption p{
     letter-spacing: 4px;
-    line-height: 1.8rem;
+    line-height: 1.8em;
     width: 70%;
     margin: 0 auto;
     font-weight: 300;
@@ -193,6 +193,10 @@ html, body{
 #carouselEducation .carousel-caption button:hover{
     background-color: #ff4f81;
     border-color: #ff4f81;
+}
+
+#carouselEducation .carousel-control-prev, #carouselEducation .carousel-control-next{
+    z-index: 11;
 }
 
 /* WELCOME  */
@@ -555,6 +559,28 @@ footer{
 /* -------------------------------  */
 /* RESPONSIVE  */
 /* HEADER  */
+@media screen and (max-width:1199.98px) {
+    #carouselEducation .carousel-caption{
+        top: 50%;
+    }
+
+    #carouselEducation .carousel-caption h1{
+        font-size: 4vw;
+    }
+
+    #carouselEducation .carousel-caption p{
+        font-size: 1.6vw;
+        margin-bottom: 0.5em;
+    }
+
+    #carouselEducation .carousel-caption button{
+        font-size: 1.5vw;
+        padding: 0.8em 1em;
+    }
+
+
+}
+
 @media screen and (max-width: 991.98px) {
     .navInstruction .navbar-brand p:first-child{
         font-size: 3vw;
@@ -588,6 +614,20 @@ footer{
 @media screen and (max-width:575.98px) {
     .header__left a{
         display: block;
+    }
+}
+
+@media screen and (max-width:415px) {
+    #carouselEducation{
+        height: 250px;
+    }
+
+    #carouselEducation .carousel-inner, #carouselEducation .carousel-item, #carouselEducation .carousel-item img{
+        height: 100%;
+    }
+
+    #carouselEducation .carousel-item img{
+        object-fit: cover;
     }
 }
 
