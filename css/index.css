@@ -578,7 +578,13 @@ footer{
         padding: 0.8em 1em;
     }
 
+    .offer-program{
+        height: 100%;
+    }
 
+    .offer-program h3{
+        margin: 36px;
+    }
 }
 
 @media screen and (max-width: 991.98px) {
