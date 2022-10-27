@@ -637,6 +637,12 @@ footer{
     }
 }
 
+@media screen and (max-width:376px) {
+    .feedback__bottom{
+        width: 100%;
+    }
+}
+
 @media screen and (max-width:320px) {
     .header__right{
         width: 32%;
@@ -656,6 +662,12 @@ footer{
     #navbarInstruction .nav-link{
         font-size: 12px;
         padding: 5px;
+    }
+}
+
+@media screen and (min-width:575px) and (max-width:992px) {
+    .feedback__bottom{
+        width: 85%;
     }
 }
 
