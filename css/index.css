@@ -465,6 +465,8 @@ footer{
 
 .footer__link,.footer__contact{
     margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
 }
 
 .footer__link i{
@@ -596,6 +598,10 @@ footer{
     .navInstruction .navbar-brand p:last-child{
         font-size: 1.5vw;
     }
+
+    .form-group .inputMail{
+        margin: 12px;
+    }
 }
 
 @media screen and (max-width:767.98px) {
@@ -628,6 +634,20 @@ footer{
         display: block;
     }
 
+    .form-group .inputMail{
+        width: 60%;
+        font-size: 10px;
+    }
+
+    .footer__form button{
+        padding: 10px;
+        border: 0;
+        font-size: 10px;
+    }
+
+    .form-group .col-4{
+        width: 0;
+    }
 
 }
 
