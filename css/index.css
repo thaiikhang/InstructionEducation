@@ -618,9 +618,17 @@ footer{
 }
 
 @media screen and (max-width:575.98px) {
+    /* GLOBAL  */
+    .heading p{
+        padding: 0 15px;
+    }
+
+    /* HEADER  */
     .header__left a{
         display: block;
     }
+
+
 }
 
 @media screen and (max-width:415px) {
